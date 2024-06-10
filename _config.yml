@@ -28,7 +28,7 @@ navbar-links:
   Courses: "courses"
   Publications: "pubs"
   Events: "events"
-  Blogs: "blog"
+  # Blogs: "blog"
   Contact: "contact"
 
 ################
@@ -299,3 +299,10 @@ plugins:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
+
+# Configuration for Jekyll-Scholar
+scholar:
+  bibliography: CiBS.bib
+  source: ./
+  sort_by: "year"
+  order: descending
