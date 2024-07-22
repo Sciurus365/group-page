@@ -44,7 +44,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+title-img: "/assets/img/CiBS-logo-33.png"
 
 
 #####################################
@@ -132,17 +132,18 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+navbar-col: &darkbg "#F4D35E"
+navbar-text-col: &darkgreen "#005256"
+navbar-border-col: *lightbg
+page-col: &lightbg "#F6D8AE"
+text-col: *darkgreen
+link-col: &emph "#DA4167"
+hover-col: &green "#00BB4C"
+footer-col: *darkbg
+footer-text-col: *darkgreen
+footer-link-col: *green
+footer-hover-col: *green
+#color template I used: https://coolors.co/00bb4c-005256-f6d8ae-da4167-f4d35e
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
