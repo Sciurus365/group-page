@@ -28,7 +28,7 @@ navbar-links:
   Courses: "courses"
   Publications: "pubs"
   Events: "events"
-  # Blogs: "blog"
+  Blogs: "blog"
   Contact: "contact"
 
 ################
@@ -200,7 +200,7 @@ footer-hover-col: *green
 #fb_comment_id: ""
 
 # To use CommentBox, sign up for a Project ID on https://commentbox.io
-#commentbox: "" # Project ID, e.g. "5694267682979840-proj"
+commentbox: "5734326557736960-proj" # Project ID, e.g. "5694267682979840-proj"
 
 # To use Utterances comments: (0) uncomment the following section, (1) fill in
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
