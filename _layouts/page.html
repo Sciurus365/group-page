@@ -15,7 +15,7 @@ layout: base
         </div>
       {% endif %}
 
-      {{ content }}
+      {{ content | doi_linkify }}
 
       {% if page.after-content %}
         <div class="after-content">
